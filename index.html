@@ -5,6 +5,12 @@
   <title>cat_memes_no_scam</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <!-- Open Graph / Social Preview -->
+  <meta property="og:title" content="cat_memes_no_scam" />
+  <meta property="og:description" content="Click for love and fun 💖" />
+  <meta property="og:image" content="https://media.giphy.com/media/3oriO0OEd9QIDdllqo/giphy.gif" />
+  <meta name="twitter:card" content="summary_large_image" />
+
   <style>
     body {
       font-family: "Comic Sans MS", cursive, sans-serif;
@@ -141,7 +147,6 @@
     noBtn.addEventListener("click", () => {
       noClicks++;
 
-      // If we've reached the end of the NO phrases → surrender 😌
       if (noClicks >= noPhrases.length) {
         document.body.innerHTML = `
           <div style="
@@ -217,7 +222,7 @@
         ">
           <h1 style="color:white;">YAY!!! 💕🥰</h1>
           <img src="https://media.giphy.com/media/1hqb8LwPS2xCNCpWH8/giphy.gif" style="width:300px;border-radius:20px;">
-          <h2 style="color:white;">You had no choice 😘</h2>
+          <h2 style="color:white;">Best decision ever 😘</h2>
         </div>
       `;
     });
